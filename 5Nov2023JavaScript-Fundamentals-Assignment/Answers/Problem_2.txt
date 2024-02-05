@@ -1,0 +1,12 @@
+Question : Describe the usage of the comma operator in JavaScript and provide an example.
+
+Answer : The comma (,) operator evaluates each of its operands (from left to right) and returns the value of the last operand.
+
+Example : 
+ 
+let y = 2;
+
+y = (y, y++);
+console.log(y);
+
+Output is : 2
